@@ -33,8 +33,8 @@ public class Main {
         String formattedDate = currentDate.format(formatter);
 
         // Sender email credentials
-        String senderEmail = "7610c5001@smtp-brevo.com";
-        String senderPassword = "B70qx8rv9z2b4NwH";
+        String senderEmail = "panzerbuck@outlook.com";
+        String senderPassword = "";
         EmailSender emailSender = new EmailSender(senderEmail, senderPassword);
 
         // Email subject and message

@@ -17,9 +17,8 @@ public class EmailSender implements EmailSenderInt {
         properties = new Properties();
         properties.put("mail.smtp.auth", "true");
         properties.put("mail.smtp.starttls.enable", "true");
-        properties.put("mail.smtp.host", "smtp-relay.brevo.com");
+        properties.put("mail.smtp.host", "smtp-mail.outlook.com");
         properties.put("mail.smtp.port", "587");
-        properties.put("mail.smtp.ssl.trust", "smtp-relay.brevo.com");
     }
     @Override
     public void sendEmail(String recipientEmail, String subject, String messageText, String pdfFilePath) {
